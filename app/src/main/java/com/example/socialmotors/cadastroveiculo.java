@@ -56,6 +56,7 @@ public class cadastroveiculo extends AppCompatActivity {
             veiculo.setTipoveiculo(tipoveiculo.getText().toString());
             dao.atualizar(veiculo);
             Toast.makeText(this, "Veiculo foi Atualizado!", Toast.LENGTH_SHORT).show();
+            finish();
         }
 
 
